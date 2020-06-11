@@ -2,8 +2,11 @@ import React from 'react';
 
 function App() {
   return (
-    <H1>Hello, world!</H1>
-  );
+      <React.Fragment>
+        <label htmlFor="bar">bar</label>
+        <input type="text" onClick={() => {console.log("Clicked")}}/>
+      </React.Fragment>
+    );
 }
 
 export default App;
